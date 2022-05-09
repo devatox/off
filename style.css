@@ -73,6 +73,17 @@ button{
   
   }
 
+  button {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  a {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  li {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
 
 body{
     height: auto;
@@ -195,4 +206,22 @@ nav {
 li:hover{
         color:rgb(255, 255, 255) ;
 }
+}
+
+.serveur {
+    text-align: left;
+}
+
+.image_serveur {
+    margin: 10px;
+}
+
+.nom_serveur {
+    margin: 140px;
+    margin-top: -100px;
+}
+
+.bouton_serveur {
+margin-top: -1000px;
+
 }
