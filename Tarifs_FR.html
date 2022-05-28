@@ -66,6 +66,47 @@
                transform: translateX(-80%); 
                }
               }
+
+              .example2 h3 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+        
+            /* Starting position */
+               -moz-transform:translateX(100%);
+               -webkit-transform:translateX(100%);  
+               transform:translateX(100%);
+        
+         /* Apply animation to this element */  
+               -moz-animation: example2 15s linear infinite;
+               -webkit-animation: example2 15s linear infinite;
+               animation: example2 15s linear infinite;
+        }
+        
+        /* Move it (define the animation) */
+              @-moz-keyframes example2 {
+               0%   { -moz-transform: translateX(10%); }
+               100% { -moz-transform: translateX(-10%); }
+              }
+              @-webkit-keyframes example2 {
+               0%   { -webkit-transform: translateX(10%); }
+               100% { -webkit-transform: translateX(-10%); }
+              }
+              @keyframes example2 {
+               0%   { 
+               -moz-transform: translateX(10%); /* Firefox bug fix */
+               -webkit-transform: translateX(10%); /* Firefox bug fix */
+               transform: translateX(10%);         
+               }
+               100% { 
+               -moz-transform: translateX(-80%); /* Firefox bug fix */
+               -webkit-transform: translateX(-80%); /* Firefox bug fix */
+               transform: translateX(-80%); 
+               }
+              }
         </style>
         
         <div class="example1">
@@ -116,13 +157,22 @@
             <img src="Affiche Devatox 3 FR.jpg" width="200px" height="350">
         </center>
         <br><br>
+        <center><img src="entre.gif">
+        <br><br>
+            <p>10€</p>
+            <div class="example2">
+                <h3 style="color: red;">Édition limitée !</h3>
+            </div> 
+            <br><br><img src="Affiche Devatox 4 FR.jpg" width="200px" height="350">
+        </center>
+        <br><br>
             <center><img src="entre.gif"></center><br>
         </FONT>
     <!-- Début barre du bas -->
 <center><FONT size="5pt" face="Patrick Hand">
     <button class="bouton"><FONT size="5pt" face="Patrick Hand" onclick="window.location.href = 'code_promo.html';"><FONT size="5pt" face="Patrick Hand">Clique moi !</FONT></button>
 
-    <div id="rectangle"><br><p>©Copyright Devatox - Tous droits réservés 2021</p></div><p><b>Version 1.4</b></p>
+    <div id="rectangle"><br><p>©Copyright Devatox - Tous droits réservés 2021</p></div><p><b>Version 1.5</b></p>
     </center>
     <!-- Fin barre du bas -->
     </FONT>
