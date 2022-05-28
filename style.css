@@ -175,13 +175,13 @@ nav {
 
     #icon-menu{
         visibility: visible;
-       background-color:rgb(255, 0, 0);
-     
+       background-color:rgba(255, 0, 0, 0);
+       float: right;
       
     }
     #icon-menu:hover{
         visibility: visible;
-       
+        float: right;
       
     }
     nav ul, nav:active ul {
@@ -192,10 +192,10 @@ nav {
         right: 10px;
         top: 35px;
         width: 35%;
-       
     }
     nav:hover ul {
         display: block;
+            float: right;
     }
     nav li {
         text-align: center;
