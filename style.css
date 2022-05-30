@@ -67,6 +67,30 @@ button{
   
   }
 
+  em {  
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  }
+
+  h4 {  
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  }
+
+ h6 {  
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  }
+
+ h5 {  
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  }
+
   h3 {  
 
     animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -224,4 +248,25 @@ li:hover{
 .bouton_serveur {
 margin-top: -1000px;
 
+}
+
+a {
+    text-decoration-color: red;
+    color: red;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone {
+    width: 50px;
 }
