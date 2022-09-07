@@ -270,3 +270,109 @@ a {
 .icone {
     width: 50px;
 }
+
+
+
+
+.content {
+    /* grow shrink basis */
+    flex: 1 0 auto;
+}
+.content p {
+    padding: 2vw 10vw 5vw;
+    text-align: justify;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px groove rgb(255, 0, 0);
+    width: 100%;
+    background: #fff;
+    color: #333;
+}
+.content-footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    flex-basis: 20%;
+    margin: 0 30px;
+}
+
+/* Others */
+
+.services-list,
+.schedule-list,
+.media-list {
+    list-style-type: none;
+}
+.services-list li {
+    padding: 2px 0;
+}
+.services-list a {
+    text-decoration: none;
+    color: #333;
+}
+.services-list a:hover {
+    color: rgb(3,3,3);
+}
+
+/* Medias */
+
+.media-list {
+    position: right;
+    right: 10px;
+}
+.media-list svg {
+    width: 30px;
+    margin: 10px 10px;
+}
+.media-list a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+
+
+    font-size: 20px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+    .content-footer {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .bloc {
+        flex-basis: auto;
+        margin: 20px 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .content-footer {
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .bloc {
+        flex-basis: 70%;
+        /* margin: 10px; */
+    }
+    .footer-contact h3,
+    .footer-services h3,
+    .footer-schedule h3,
+    .footer-medias h3 {
+        padding-bottom: 5px;
+    }
+
+}
