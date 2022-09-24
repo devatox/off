@@ -230,7 +230,7 @@ nav {
     }
 li:hover{
         color:rgb(255, 255, 255) ;
-        
+        cursor: pointer;
 }
 }
 
@@ -411,5 +411,9 @@ footer {
     font-size: 18px;
     margin-bottom: 16px;
     border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .img_index {
     cursor: pointer;
   }
