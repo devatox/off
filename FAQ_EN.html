@@ -9,6 +9,15 @@
 <link rel="stylesheet" media="handheld" type="text/css" title="mobile" href="mobile.css" />
 <link rel="icon" type="image/png" sizes="16x16" href="Logo Devatox.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>window.onkeydown=function(event){
+  var e=event||window.event;
+  if(e.keyCode===85 && e.ctrlKey===true){
+      e.stopPropagation();
+      e.preventDefault();
+      e.returnValue = false;
+      return false;
+  }
+}</script>
 </head>
 
 <body> <FONT face="Patrick Hand">

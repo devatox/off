@@ -10,7 +10,15 @@
 <link rel="icon" type="image/png" sizes="16x16" href="Logo Devatox.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+<script>window.onkeydown=function(event){
+  var e=event||window.event;
+  if(e.keyCode===85 && e.ctrlKey===true){
+      e.stopPropagation();
+      e.preventDefault();
+      e.returnValue = false;
+      return false;
+  }
+}</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 </head>
 
