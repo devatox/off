@@ -176,7 +176,27 @@
         <div class="example2">
             <h3 style="color: rgb(255, 153, 0);">Limited edition!</h3>
         </div>
-        <br><br><img src="Affiche Devatox 4 EN.jpg" width="300px" height="450">
+        <br>
+        <div class="rebour">  <label id="Compte"></label>
+        <script type="text/javascript">
+        var Affiche=document.getElementById("Compte");
+        function Rebour() {
+        var date1 = new Date();
+        var date2 = new Date ("Nov 1, 2022 00:00:00");
+        var sec = (date2 - date1) / 1000;
+        var n = 24 * 3600;
+        if (sec > 0) {
+        d = Math.floor (sec / n);
+        h = Math.floor ((sec - (d * n)) / 3600);
+        mn = Math.floor ((sec - ((d * n + h * 3600))) / 60);
+        sec = Math.floor (sec - ((d * n + h * 3600 + mn * 60)));
+        Affiche.innerHTML = " " + d +" d "+ h +" h "+ mn +" min "+ sec + " s";
+        window.status = "Temps restant : " + d +" d "+ h +" h "+ mn +" min "+ sec + " s ";
+        }
+        tRebour=setTimeout ("Rebour();", 1000);
+        }
+        Rebour();
+        </script></div><br><br><img src="Affiche Devatox 4 EN.jpg" width="300px" height="450">
     </center>
     <br><br>
     
