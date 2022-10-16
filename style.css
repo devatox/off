@@ -97,6 +97,10 @@ button{
   
   }
 
+  ul {
+        color: rgb(255, 255, 255);
+  }
+
   button {
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
