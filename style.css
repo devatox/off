@@ -528,3 +528,17 @@ footer {
     width: 379px;
     height: 45px;
 }
+
+.text_about_fr {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    height: 230px;
+    width: 350px;
+}
+
+.text_about_en {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+}
