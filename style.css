@@ -239,6 +239,7 @@ li:hover{
 
 .serveur {
     text-align: left;
+    background-color: rgb(122, 122, 122);
 }
 
 .image_serveur {
@@ -498,4 +499,32 @@ footer {
 
 .rebour {
     color: white;
+}
+
+.text_welcome_fr {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    width: 500px;
+    height: 260px;
+}
+
+.text_welcome_en {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    width: 500px;
+    height: 165px;
+}
+
+.liste_qualités_fr {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    width: 578px;
+    height: 45px;
+}
+
+.liste_qualités_en {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    width: 379px;
+    height: 45px;
 }
