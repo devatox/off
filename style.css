@@ -542,3 +542,24 @@ footer {
     height: 200px;
     width: 350px;
 }
+
+.prix {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    height: 70px;
+    width: 110px;
+}
+
+.text_contact_fr {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    height: 70px;
+    width: 350px;
+}
+
+.text_contact_en {
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    height: 40px;
+    width: 350px;
+}
