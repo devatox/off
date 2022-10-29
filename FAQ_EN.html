@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Devatox Officiel</title>
+    <title>Devatox Officiel🎃</title>
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,28 @@
     <br>
 
     <img src="citrouile.png" width="64px" height="64px">
-    <p><b>Bon Halloween à vous !</b></p>
+    <p><b>Happy Halloween to you!</b></p>
+    <h3>End in:</h3>
+    <div class="rebour">  <label id="Compte"></label>
+      <script type="text/javascript">
+      var Affiche=document.getElementById("Compte");
+      function Rebour() {
+      var date1 = new Date();
+      var date2 = new Date ("Nov 1, 2022 00:00:00");
+      var sec = (date2 - date1) / 1000;
+      var n = 24 * 3600;
+      if (sec > 0) {
+      d = Math.floor (sec / n);
+      h = Math.floor ((sec - (d * n)) / 3600);
+      mn = Math.floor ((sec - ((d * n + h * 3600))) / 60);
+      sec = Math.floor (sec - ((d * n + h * 3600 + mn * 60)));
+      Affiche.innerHTML = " " + d +" d "+ h +" h "+ mn +" min "+ sec + " s";
+      window.status = "Temps restant : " + d +" d "+ h +" h "+ mn +" min "+ sec + " s ";
+      }
+      tRebour=setTimeout ("Rebour();", 1000);
+      }
+      Rebour();
+      </script></div>
     <style style="text/css">
         .example1 {
           height: 50px; 

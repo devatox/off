@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Devatox Officiel</title>
+    <title>Devatox Officiel🎃</title>
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +81,27 @@
         <div class="example1">
             <h3 style="color: rgb(255, 153, 0);">Un tarif acheter = un tarif offert !</h3>
         </div>
-
+        <h3>Fin dans :</h3>
+        <div class="rebour"> <label id="Compte"></label>
+          <script type="text/javascript">
+          var Affiche=document.getElementById("Compte");
+          function Rebour() {
+          var date1 = new Date();
+          var date2 = new Date ("Nov 1, 2022 00:00:00");
+          var sec = (date2 - date1) / 1000;
+          var n = 24 * 3600;
+          if (sec > 0) {
+          j = Math.floor (sec / n);
+          h = Math.floor ((sec - (j * n)) / 3600);
+          mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
+          sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
+          Affiche.innerHTML = " " + j +" j "+ h +" h "+ mn +" min "+ sec + " s";
+          window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+          }
+          tRebour=setTimeout ("Rebour();", 1000);
+          }
+          Rebour();
+          </script></div> 
 </center>
    <div class="emplacement_texte">
     <h1>Devatox</h1>
