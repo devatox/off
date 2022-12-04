@@ -22,12 +22,12 @@ button{
         
     from{
         
-        box-shadow:0 0 5px rgb(255, 0, 0)
+        box-shadow:0 0 5px rgb(219,168,0)
         
         }
     to{
     
-        box-shadow:0 0 15px rgb(255, 0, 0)
+        box-shadow:0 0 15px rgb(219,168,0)
         
         }
         
@@ -143,12 +143,12 @@ img {
 /* Début couleur séléction de texte*/
 ::selection {
     color: #fff;
-    background: #ff0000;
+    background: rgb(219,168,0);
     }
 
     ::-moz-selection {
  color: #fff;
- background: #ff0000;
+ background: rgb(219,168,0);
  }
 /* Fin couleur séléction de texte*/
 
@@ -172,6 +172,7 @@ li{
 li:hover{
     background-color: rgb(240, 240, 240);
     cursor: pointer;
+    border-radius: 10px;
 }
 nav {
     float: right;
@@ -288,8 +289,8 @@ transition: transform .3s ease, color .5s ease;
 
 
 a {
-    text-decoration-color: red;
-    color: red;
+    text-decoration-color: rgb(219,168,0);
+    color: rgb(219,168,0);
 }
 
 .btn {
@@ -323,7 +324,7 @@ a {
 
 footer {
     flex-shrink: 0;
-    border-top: 1px groove rgb(255, 0, 0);
+    border-top: 1px groove rgb(219,168,0);
     width: 100%;
     background: #fff;
     color: #333;
@@ -338,7 +339,7 @@ footer {
     padding: 10px 0 10px;
     text-decoration: underline;
     cursor: pointer;
-    color: #ff0000;
+    color: rgb(219,168,0);
 }
 
 .bloc {
@@ -376,7 +377,7 @@ footer {
 }
 .media-list a {
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: rgb(219,168,0);
 
 
     font-size: 20px;
@@ -440,7 +441,7 @@ footer {
   }
   
   .cookie-btn {
-    background: #ff0000;
+    background: rgb(219,168,0);
     border: 0;
     color: #f5f6fa;
     padding: 12px 48px;
@@ -459,8 +460,8 @@ footer {
     z-index: 1;
     position: relative;
     overflow: hidden;
-    color: red;
-    border: 3px solid red;
+    color: rgb(219,168,0);
+    border: 3px solid rgb(219,168,0);
     padding: 10px 20px;
     font-family: Patrick Hand;
     font-weight: 800;
@@ -476,7 +477,7 @@ footer {
     height: 0px;
     width: 0px;
     position: absolute;
-    background-color: red;
+    background-color: rgb(219,168,0);
     z-index: -1;
     border-radius: 50%;
     transition: all .7s ease;
