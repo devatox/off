@@ -22,12 +22,12 @@ button{
         
     from{
         
-        box-shadow:0 0 5px rgb(219,168,0)
+        box-shadow:0 0 5px rgb(255, 0, 0)
         
         }
     to{
     
-        box-shadow:0 0 15px rgb(219,168,0)
+        box-shadow:0 0 15px rgb(255, 0, 0)
         
         }
         
@@ -143,12 +143,12 @@ img {
 /* Début couleur séléction de texte*/
 ::selection {
     color: #fff;
-    background: rgb(219,168,0);
+    background: #ff0000;
     }
 
     ::-moz-selection {
  color: #fff;
- background: rgb(219,168,0);
+ background: #ff0000;
  }
 /* Fin couleur séléction de texte*/
 
@@ -289,8 +289,8 @@ transition: transform .3s ease, color .5s ease;
 
 
 a {
-    text-decoration-color: rgb(219,168,0);
-    color: rgb(219,168,0);
+    text-decoration-color: red;
+    color: red;
 }
 
 .btn {
@@ -324,7 +324,7 @@ a {
 
 footer {
     flex-shrink: 0;
-    border-top: 1px groove rgb(219,168,0);
+    border-top: 1px groove rgb(255, 0, 0);
     width: 100%;
     background: #fff;
     color: #333;
@@ -339,7 +339,7 @@ footer {
     padding: 10px 0 10px;
     text-decoration: underline;
     cursor: pointer;
-    color: rgb(219,168,0);
+    color: #ff0000;
 }
 
 .bloc {
@@ -377,7 +377,7 @@ footer {
 }
 .media-list a {
     text-decoration: none;
-    color: rgb(219,168,0);
+    color: rgb(255, 0, 0);
 
 
     font-size: 20px;
@@ -441,7 +441,7 @@ footer {
   }
   
   .cookie-btn {
-    background: rgb(219,168,0);
+    background: #ff0000;
     border: 0;
     color: #f5f6fa;
     padding: 12px 48px;
@@ -460,8 +460,8 @@ footer {
     z-index: 1;
     position: relative;
     overflow: hidden;
-    color: rgb(219,168,0);
-    border: 3px solid rgb(219,168,0);
+    color: red;
+    border: 3px solid red;
     padding: 10px 20px;
     font-family: Patrick Hand;
     font-weight: 800;
@@ -477,7 +477,7 @@ footer {
     height: 0px;
     width: 0px;
     position: absolute;
-    background-color: rgb(219,168,0);
+    background-color: red;
     z-index: -1;
     border-radius: 50%;
     transition: all .7s ease;
@@ -564,3 +564,8 @@ footer {
     border-radius: 10px;
     width: 120px;
 }
+
+@media (prefers-color-scheme: dark) {
+
+
+    }
